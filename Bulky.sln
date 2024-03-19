@@ -7,6 +7,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BulkyWeb", "BulkyWeb\BulkyW
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BulkyWebRazor_Temp", "BulkyWebRazor_Temp\BulkyWebRazor_Temp.csproj", "{64E73D43-9246-4A69-BFCC-8E259C2C4F3A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bulky.DataAccess", "Bulky.DataAccess\Bulky.DataAccess.csproj", "{0467E527-0F76-4BA0-B65F-3B44E3E52593}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6382FF8E-D593-4E20-B160-FD3600BD038F} = {6382FF8E-D593-4E20-B160-FD3600BD038F}
+		{EF7358C9-8F45-4129-82D5-D3AEDD0A449B} = {EF7358C9-8F45-4129-82D5-D3AEDD0A449B}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bulky.Models", "Bulky.Models\Bulky.Models.csproj", "{6382FF8E-D593-4E20-B160-FD3600BD038F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bulky.Utility", "Bulky.Utility\Bulky.Utility.csproj", "{EF7358C9-8F45-4129-82D5-D3AEDD0A449B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +31,18 @@ Global
 		{64E73D43-9246-4A69-BFCC-8E259C2C4F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64E73D43-9246-4A69-BFCC-8E259C2C4F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64E73D43-9246-4A69-BFCC-8E259C2C4F3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0467E527-0F76-4BA0-B65F-3B44E3E52593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0467E527-0F76-4BA0-B65F-3B44E3E52593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0467E527-0F76-4BA0-B65F-3B44E3E52593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0467E527-0F76-4BA0-B65F-3B44E3E52593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6382FF8E-D593-4E20-B160-FD3600BD038F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6382FF8E-D593-4E20-B160-FD3600BD038F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6382FF8E-D593-4E20-B160-FD3600BD038F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6382FF8E-D593-4E20-B160-FD3600BD038F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF7358C9-8F45-4129-82D5-D3AEDD0A449B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF7358C9-8F45-4129-82D5-D3AEDD0A449B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF7358C9-8F45-4129-82D5-D3AEDD0A449B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF7358C9-8F45-4129-82D5-D3AEDD0A449B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
